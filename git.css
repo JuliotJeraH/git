@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+
+
+
+body{
+    background-image: url(img/spdeyy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20px);
+    height: 100vh;
+    width: 210vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.top-header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+span{
+    font-size: small;
+    color: white;
+}
+header{
+    font-size: 30px;
+    color: white;
+}
+.input-field{
+    margin-bottom: 20px;
+}
+.input-field .input{
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 30px;
+}
+::placeholder{
+    color: white;
+}
+.input-field .submit{
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px black;
+}
+.submit:active{
+    opacity: 0.5;
+}
+.button{
+    display: flex;
+}
+.button .right{
+    position: relative;
+    left: 150px;
+}
+.left label{
+    color: white;
+    cursor: pointer;
+}
+.right label a{
+    color: white;
+}
